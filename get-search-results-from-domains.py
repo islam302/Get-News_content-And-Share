@@ -395,6 +395,7 @@ class SearchAboutNews(Tk):
 
         return found_links, error_urls
 
+
     def extract_content(self, url):
         try:
             response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
