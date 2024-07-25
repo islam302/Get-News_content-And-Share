@@ -473,6 +473,7 @@ import chardet
 import time
 
 
+
 def get_domains_from_file(excel_file_path):
     try:
         df = pd.read_excel(excel_file_path)
